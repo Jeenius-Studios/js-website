@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jeenius Studios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="./index.html"><img src="assets/js-header-logo.webp" alt="Jeenius Studios"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./our-story.html">OUR STORY</a></li>
+                <li><a href="./portfolio.html" class="active">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-page">
+            <h1>PORTFOLIO</h1>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="branding">BRANDING</button>
+                <button class="filter-btn" data-filter="identity">IDENTITY</button>
+                <button class="filter-btn" data-filter="graphic">GRAPHIC DESIGN</button>
+                <button class="filter-btn" data-filter="web">WEB DESIGN</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding identity" data-project="luup">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/luup.webp" alt="Luup Project">
+                        <div class="portfolio-overlay">
+                            <h3>LUUP</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic" data-project="think-for-actions">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/think-for-actions.webp" alt="Think For Actions Project">
+                        <div class="portfolio-overlay">
+                            <h3>THINK FOR ACTIONS</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding identity" data-project="focal-point">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/focal-point.webp" alt="Focal Point Project">
+                        <div class="portfolio-overlay">
+                            <h3>FOCAL POINT</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic web" data-project="muslim-neighbour">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/muslim-neighbour.webp" alt="Your Muslim Neighbour Project">
+                        <div class="portfolio-overlay">
+                            <h3>YOUR MUSLIM NEIGHBOUR</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic" data-project="wedding-invitation">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/wedding-invitation.webp" alt="Wedding Invitation Project">
+                        <div class="portfolio-overlay">
+                            <h3>WEDDING INVITATION</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic" data-project="gateway-health">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/gateway-health.webp" alt="Gateway Health Project">
+                        <div class="portfolio-overlay">
+                            <h3>GATEWAY HEALTH</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-project="al-rahmah">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/al-rahmah.webp" alt="Al-Rahmah School Project">
+                        <div class="portfolio-overlay">
+                            <h3>AL-RAHMAH SCHOOL</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-project="al-fajr">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/al-fajr.webp" alt="Al-Fajr Institute Project">
+                        <div class="portfolio-overlay">
+                            <h3>AL-FAJR INSTITUTE</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic" data-project="touch-of-spice">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/touch-of-spice.webp" alt="Touch of Spice Project">
+                        <div class="portfolio-overlay">
+                            <h3>TOUCH OF SPICE</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic" data-project="camara">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio/camara.webp" alt="Camara Project">
+                        <div class="portfolio-overlay">
+                            <h3>CAMARA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/js-logo.webp" alt="Jeenius Studios">
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jeeniusstudios"><img src="assets/facebook-icon.svg" alt="Facebook" style="width: 28px; height: 28px;"></a>
+                <a href="https://x.com/jeeniusstudios"><img src="assets/x-icon.svg" alt="X"></a>
+                <a href="mailto:hello@jeeniusstudios.net">hello@jeeniusstudios.net</a>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2019 · Jeenius Studios.
+        </div>
+    </footer>
+
+    <script src="js/projectData.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html> 

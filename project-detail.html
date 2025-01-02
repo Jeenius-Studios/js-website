@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Jeenius Studios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="./index.html"><img src="assets/js-header-logo.webp" alt="Jeenius Studios"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./our-story.html">OUR STORY</a></li>
+                <li><a href="./portfolio.html">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-detail">
+            <div class="back-link">
+                <a href="./portfolio.html">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Back to Portfolio
+                </a>
+            </div>
+            <div class="project-content">
+                <div class="project-gallery">
+                    <div class="gallery-main">
+                        <img src="" alt="Project Image" id="projectImage">
+                        <div class="image-caption" id="projectImageCaption"></div>
+                    </div>
+                    <div class="gallery-grid" id="projectGallery">
+                        <!-- Additional images will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h1 id="projectTitle"></h1>
+                    <div id="projectCategories" class="project-categories"></div>
+                    <p id="projectDescription"></p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <h4>Client</h4>
+                            <p id="projectClient"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Services</h4>
+                            <p id="projectServices"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Year</h4>
+                            <p id="projectYear"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/js-logo.webp" alt="Jeenius Studios">
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jeeniusstudios"><img src="assets/facebook-icon.svg" alt="Facebook" style="width: 28px; height: 28px;"></a>
+                <a href="https://x.com/jeeniusstudios"><img src="assets/x-icon.svg" alt="X"></a>
+                <a href="mailto:hello@jeeniusstudios.net">hello@jeeniusstudios.net</a>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2019 · Jeenius Studios.
+        </div>
+    </footer>
+
+    <script src="js/projectData.js"></script>
+    <script src="js/project-detail.js"></script>
+</body>
+</html> 
