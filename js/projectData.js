@@ -2,17 +2,17 @@ const projectData = {
     'luup': {
         title: 'LUUP',
         categories: ['Branding', 'Identity'],
-        description: 'Logo and brand identity design for a local Toronto startup focused on sustainable urban mobility.',
+        description: 'Logo and brand identity design for a local Toronto startup focused on feedback rewards',
         client: 'Luup',
         services: 'Logo Design',
-        year: '2023',
+        year: '2019',
         images: [
             {
-                src:'assets/portfolio/luup.webp',
+                src: 'assets/portfolio/luup.webp',
                 caption: '....'
             },
             {
-            src: 'assets/portfolio/Luup-Mock2-1024x546.jpg'
+                src: 'assets/portfolio/Luup-Mock2-1024x546.jpg'
             }
     },
     'think-for-actions': {
