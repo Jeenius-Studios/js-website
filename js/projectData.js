@@ -12,7 +12,8 @@ const projectData = {
                 caption: '....'
             },
             {
-                src: 'assets/portfolio/Luup-Mock2-1024x546.jpg'
+                src: 'assets/portfolio/Luup-Mock2-1024x546.jpg',
+                caption: '....'
             }
         ]
     },
