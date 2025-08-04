@@ -14,6 +14,7 @@ const projectData = {
             {
                 src: 'assets/portfolio/Luup-Mock2-1024x546.jpg'
             }
+        ]
     },
     'think-for-actions': {
         title: 'Think For Actions - RISC Conference',
