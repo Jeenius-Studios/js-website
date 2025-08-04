@@ -6,7 +6,14 @@ const projectData = {
         client: 'Luup',
         services: 'Logo Design',
         year: '2023',
-        images: ['assets/portfolio/luup.webp']
+        images: [
+            {
+                src:'assets/portfolio/luup.webp',
+                caption: '....'
+            },
+            {
+            src: 'assets/portfolio/Luup-Mock2-1024x546.jpg'
+            }
     },
     'think-for-actions': {
         title: 'Think For Actions - RISC Conference',
